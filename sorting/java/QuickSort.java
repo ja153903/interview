@@ -34,6 +34,10 @@
  *
  * Randomized quicksort is where we pick a different pivot 
  * every time. 
+ *
+ * Note that if we were to implement a recursive version
+ * of quicksort, we would want it to be tail recursive
+ * to avoid a stack overflow
  */
 
 public class QuickSort {
