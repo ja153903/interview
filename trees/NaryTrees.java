@@ -12,6 +12,8 @@ public class NaryTrees {
 class NaryTraversal {
     // Probably the most efficient way to iterate through an nary tree
     // since we can get screwed recursively
+    // Let N be the total number of nodes
+    // This algorithm runs in O(N * N)
     public void levelOrder(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();
 
